@@ -3,6 +3,8 @@
 nav {
   background-color: $primaryColor;
   padding: 5px;
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
@@ -23,6 +25,7 @@ nav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
 nav li a:hover {
