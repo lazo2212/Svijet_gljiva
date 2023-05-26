@@ -1,0 +1,26 @@
+@use '../utilities/variables' as *;
+
+header {
+  background-color: $backgroundColor;
+  padding: 20px;
+  text-align: center;
+  color: $textColor;
+}
+
+header h1 {
+  font-family: $mainFontFamily;
+  letter-spacing: 5px;
+}
+
+#svg {
+  display: block;
+  position: absolute;
+  width: 35px;
+  margin: -10px -10px;
+}
+
+@media only screen and (min-width: 600px) {
+  #svg {
+    width: 100px;
+  }
+}

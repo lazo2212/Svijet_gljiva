@@ -1,0 +1,12 @@
+@use '../utilities/variables' as *;
+
+main {
+  padding: 20px;
+  color: vartextColor;
+  font-family: 'Boogaloo', cursive;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+}

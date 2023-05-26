@@ -1,0 +1,32 @@
+@use '../utilities/variables' as *;
+
+nav {
+  background-color: $primaryColor;
+  padding: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  margin-right: 5px;
+}
+
+nav li a {
+  display: block;
+  color: $tertiaryColor;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: $secondaryColor;
+  color: $textColor;
+  border-radius: 5px;
+}

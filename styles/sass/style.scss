@@ -1,0 +1,21 @@
+@use 'utilities/variables' as *;
+@use 'utilities/mixins' as *;
+@use 'layout/header';
+@use 'layout/navigation';
+@use 'layout/main-section';
+@use 'layout/footer';
+@use 'components/buttons';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $textFontFamily;
+  margin: 0;
+  padding: 0;
+}
+
+*::selection {
+  background-color: $secondaryColor;
+}
