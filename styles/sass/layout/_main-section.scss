@@ -2,8 +2,8 @@
 
 main {
   padding: 20px;
-  color: vartextColor;
-  font-family: 'Boogaloo', cursive;
+  color: $textColor;
+  font-family: $textFontFamily;
 }
 
 main img {
