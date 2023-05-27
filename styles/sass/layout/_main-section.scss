@@ -4,13 +4,23 @@ main {
   padding: 20px;
   color: $textColor;
   font-family: $textFontFamily;
-}
 
-main img {
-  max-width: 100%;
-  height: auto;
-}
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
-section {
-  scroll-margin-top: 70px;
+  section {
+    scroll-margin-top: 70px;
+
+    p {
+      letter-spacing: 0.3px;
+      text-indent: 10px;
+
+      &::first-letter {
+        color: $secondaryColor;
+        font-size: 20px;
+      }
+    }
+  }
 }
