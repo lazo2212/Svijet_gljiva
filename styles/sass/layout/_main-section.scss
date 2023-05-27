@@ -5,9 +5,10 @@ main {
   color: $textColor;
   font-family: $textFontFamily;
 
-  img {
+  #svg {
     max-width: 100%;
     height: auto;
+    pointer-events: none;
   }
 
   section {
@@ -15,15 +16,16 @@ main {
 
     p {
       letter-spacing: 0.3px;
-      text-indent: 10px;
+      text-indent: 30px;
 
       &::first-letter {
         color: $secondaryColor;
+        font-weight: bolder;
         font-size: 20px;
       }
     }
 
-    #vrganj-background {
+    #boletus-background {
       position: fixed;
       right: -30px;
       bottom: 0;
@@ -31,6 +33,7 @@ main {
       z-index: -9999;
       opacity: 0.2;
       filter: contrast(50%);
+      pointer-events: none;
     }
   }
 }
