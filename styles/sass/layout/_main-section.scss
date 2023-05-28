@@ -5,10 +5,9 @@ main {
   color: $textColor;
   font-family: $textFontFamily;
 
-  #svg {
+  img {
     max-width: 100%;
     height: auto;
-    pointer-events: none;
   }
 
   section {
