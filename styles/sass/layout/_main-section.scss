@@ -1,9 +1,7 @@
 @use '../utilities/variables' as *;
 
-main {
-  padding: 20px;
-  color: $textColor;
-  font-family: $textFontFamily;
+.main {
+  padding: 1.4em;
 
   img {
     max-width: 100%;
@@ -11,7 +9,11 @@ main {
   }
 
   section {
-    scroll-margin-top: 70px;
+    scroll-margin-top: 5.2em;
+
+    h2 {
+      padding: 0.6em 0;
+    }
 
     #boletus-background {
       position: fixed;
@@ -26,7 +28,10 @@ main {
   }
 
   #about {
+    margin-bottom: 2em;
+
     p {
+      padding-bottom: 1em;
       letter-spacing: 0.3px;
       text-indent: 30px;
 
@@ -35,6 +40,27 @@ main {
         font-weight: bolder;
         font-size: 20px;
       }
+    }
+  }
+
+  #types {
+    margin-bottom: 2em;
+
+    p {
+      padding-bottom: 1em;
+    }
+
+    ul {
+      margin-left: 2em;
+      padding: 0;
+    }
+  }
+
+  #gallery {
+    margin-bottom: 2em;
+
+    .wrapper {
+      padding: 1rem 0;
     }
   }
 
