@@ -1,16 +1,1 @@
 @use '../utilities/variables' as *;
-
-.button {
-  cursor: pointer;
-  width: 50px;
-  height: 50px;
-}
-
-#left {
-  margin-right: 100px;
-  transform: rotate(-90deg);
-}
-
-#right {
-  transform: rotate(90deg);
-}

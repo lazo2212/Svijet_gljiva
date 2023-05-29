@@ -53,6 +53,11 @@
     ul {
       margin-left: 2em;
       padding: 0;
+
+      li a {
+        text-decoration: none;
+        color: $textColor;
+      }
     }
   }
 
@@ -60,7 +65,14 @@
     margin-bottom: 2em;
 
     .wrapper {
+      scroll-margin-top: 5.2em;
       padding: 1rem 0;
+
+      .about-mushrom {
+        p {
+          margin-top: 0.6em;
+        }
+      }
     }
   }
 
