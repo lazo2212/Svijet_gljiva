@@ -20,8 +20,8 @@ nav {
     display: block;
     color: $tertiaryColor;
     font-weight: 700;
-    letter-spacing: 0.8px;
-    padding: 1em 1.8em;
+    letter-spacing: 0.4px;
+    padding: 1em 1.6em;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
@@ -36,5 +36,9 @@ nav {
 @include mq-sm {
   ul {
     gap: 5em;
+
+    li a {
+      letter-spacing: 0.8px;
+    }
   }
 }
