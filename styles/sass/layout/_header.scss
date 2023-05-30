@@ -1,4 +1,5 @@
 @use '../utilities/variables' as *;
+@use '../utilities/mixins' as *;
 
 .header {
   width: 100%;
@@ -24,5 +25,11 @@
 @media only screen and (min-width: 600px) {
   #svg {
     width: 6em;
+  }
+}
+
+@include mq-sm {
+  #svg {
+    margin-left: 5%;
   }
 }

@@ -1,5 +1,41 @@
-@mixin reset {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+// Media Query Mixins
+$bp-xs: 520px;
+$bp-sm: 760px;
+$bp-md: 1024px;
+$bp-lg: 1260px;
+$bp-xl: 1880px;
+
+// Very Small View -- from 0px to $bp-xs
+@mixin mq-xs {
+  @media screen and (min-width: #{$bp-xs}) {
+    @content;
+  }
+}
+
+// General Mobile View -- from 0px to $bp-sm
+@mixin mq-sm {
+  @media screen and (min-width: #{$bp-sm}) {
+    @content;
+  }
+}
+
+// General Tablet View -- between mobile & desktop
+@mixin mq-md {
+  @media screen and (min-width: #{$bp-sm + 1}) {
+    @content;
+  }
+}
+
+// General Desktop View
+@mixin mq-lg {
+  @media screen and (min-width: #{$bp-md}) {
+    @content;
+  }
+}
+
+// General Desktop View
+@mixin mq-xl {
+  @media screen and (min-width: #{$bp-lg}) {
+    @content;
+  }
 }

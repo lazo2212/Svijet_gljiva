@@ -1,27 +1,8 @@
 @use 'utilities/mixins' as *;
 @use 'utilities/variables' as *;
+@use 'base/base';
 @use 'layout/header';
 @use 'layout/navigation';
 @use 'layout/main-section';
 @use 'layout/footer';
 @use 'components/buttons';
-
-*,
-*::before,
-*::after {
-  @include reset;
-}
-
-*::selection {
-  background-color: $secondaryColor;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: $textFontFamily;
-  color: $textColor;
-  background-color: $backgroundColor;
-}
