@@ -21,21 +21,21 @@ $bp-xl: 1880px;
 
 // General Tablet View -- between mobile & desktop
 @mixin mq-md {
-  @media screen and (min-width: #{$bp-sm + 1}) {
+  @media screen and (min-width: #{$bp-md + 1}) {
     @content;
   }
 }
 
 // General Desktop View
 @mixin mq-lg {
-  @media screen and (min-width: #{$bp-md}) {
+  @media screen and (min-width: #{$bp-lg}) {
     @content;
   }
 }
 
 // General Desktop View
 @mixin mq-xl {
-  @media screen and (min-width: #{$bp-lg}) {
+  @media screen and (min-width: #{$bp-xl}) {
     @content;
   }
 }
