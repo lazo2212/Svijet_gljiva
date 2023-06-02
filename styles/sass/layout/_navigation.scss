@@ -21,7 +21,7 @@ nav {
 
   li a {
     display: block;
-    color: $tertiaryColor;
+    color: $terinaryColor;
     font-weight: 700;
     letter-spacing: 0;
     padding: 1em;
@@ -36,12 +36,11 @@ nav {
   }
 }
 
+// Media Queries
 @include mq-sm {
   ul {
-    gap: 5em;
-
     li {
-      margin: 0;
+      margin: 0 2.5em;
     }
     li a {
       letter-spacing: 0.8px;

@@ -28,8 +28,25 @@
   }
 }
 
+// Media Queries
 @include mq-sm {
   #svg {
     margin-left: 5%;
   }
+}
+
+// Animation
+.header h1 {
+  @include keyframes(fade) {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @include animate(fade, 2s, ease-in-out, 1);
 }
