@@ -94,3 +94,9 @@
     }
   }
 }
+
+@media screen and (max-height: 500px) {
+  #boletus-background {
+    display: none;
+  }
+}

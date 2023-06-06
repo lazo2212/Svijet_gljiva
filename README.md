@@ -18,7 +18,6 @@ Svijet gljiva is a website project that provides information about various types
 
 - HTML
 - CSS/SASS
-- JavaScript
 
 ## Motivation
 
@@ -30,7 +29,6 @@ While working on this project, I had the opportunity to enhance my skills in web
 
 - Building a responsive website that adapts to different screen sizes and devices.
 - Applying CSS/SASS techniques for styling and layout.
-- Implementing a search functionality to enable users to find specific mushrooms.
 - Optimizing website performance and loading speed.
 - Incorporating accessibility best practices to ensure inclusivity.
 
